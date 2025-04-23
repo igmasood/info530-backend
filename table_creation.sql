@@ -16,3 +16,4 @@ CREATE TABLE IF NOT EXISTS instructors (
 
 INSERT INTO students VALUES (1234, 'password123','Chris', 'Combs');
 INSERT INTO instructors VALUES (1234, 'password123', 'Professor', 'Etudo');
+

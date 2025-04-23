@@ -1,8 +1,11 @@
-const mysql = require('mysql')
 require('dotenv').config();
-var connection = mysql.createConnection({
+const name = "db";
+
+var conn_info = {
     host: "localhost",
-    user: process.env.DB_HOST,
+    user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     database: 'attendance_system'
-});
+}
+
+module.exports = {name, conn_info}
