@@ -3,10 +3,10 @@ var router = express.Router();
 var db = require('../db');
 var mysql = require('mysql2');
 
-router  = express.Router();
-var connection = mysql.createConnection(db.conn_info);
+//router  = express.Router();
+//var connection = mysql.createConnection(db.conn_info);
 
-connection.connect();
+//connection.connect();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
